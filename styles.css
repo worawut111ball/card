@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Roboto', sans-serif;
+    min-height: 200vh;
+    background-image: linear-gradient(
+            180deg,
+            #000000 5%,
+            #00000070 20%,
+            #00000070 100%
+          ),
+          url(https://scontent.fkkc3-1.fna.fbcdn.net/v/t1.15752-9/385550552_367339959156667_1529371255044754331_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFZ0x7tCeZDUKKXwY3_UrQtpopH5Nzd7OGmikfk3N3s4ZBu24EmCLaRQF_8VlCzgvTtFEOaN-6_vHJeu3kT9Z_p&_nc_ohc=jd-xYv9PZdYAX9XMHx7&_nc_ht=scontent.fkkc3-1.fna&oh=03_AdTW4r0cQLL6WViXEiZ93JJ_UBpLBIcyeTJhlger0omxRw&oe=65993BF4);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    
+}
+.container {
+    border: 3px solid rgb(36,32,32);
+    min-height: 600px;
+    width: 40%;
+    margin: auto;
+    position: relative;
+    z-index: -1;
+    background-image: linear-gradient(
+        180deg,
+            #000000 5%,
+            #00000070 20%,
+            #00000070 100%
+    ),
+    url(lol.jpg);
+    border-radius: 150px;
+    box-shadow: 33px 34px 24px -6px rgba(186,186,126,0.73);
+-webkit-box-shadow: 33px 34px 24px -6px rgba(186,186,126,0.73);
+-moz-box-shadow: 33px 34px 24px -6px rgba(186,186,126,0.73);
+    
+}
+.card {
+    border: 3px solid rgb(1, 1, 1); 
+    position: absolute;
+    padding: 8px;
+    background: #6c6b6b00;
+    inset: 30px 90px 60px 90px;
+    text-align: center;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        180deg,
+            #00000000 5%,
+            #00000000 20%,
+            #00000000 100%
+    ),
+    url(Enzo.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    border-radius: 100px;
+    
+}
+.name{
+    border: 0px dashed rgb(1, 1, 1);
+    position: absolute;
+    padding: 8px;
+    background: #02020200;
+    
+    /* margin-top: 85%; */
+    text-align: center ;
+    margin: auto;
+    position: absolute;
+    inset: 570px 10px 10px;
+    border-radius: 10px;
+    
+}
+.cir{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(247, 0, 0);
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+  left: 88%;
+  bottom: 87px;
+   
+}
+.xo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(235, 229, 229, 0.236);
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+  right: -5%;
+  
+   
+}
+.tin {
+    float: left;
+    width: 100px;
+  }
+  .logo {
+    float: left;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 10px;
+  }
